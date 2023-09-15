@@ -4,7 +4,9 @@
 name: Caro Python application
 
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+    - main
 
 permissions:
   contents: read
